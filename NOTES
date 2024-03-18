@@ -1,0 +1,6 @@
+atlantis server \
+--atlantis-url="http://34.101.94.27" \
+--gh-user="adhihtia21" \
+--gh-token="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" \
+--gh-webhook-secret="Atlantis#123" \
+--repo-allowlist="github.com/adhithia21/terraform-batch-12a"
