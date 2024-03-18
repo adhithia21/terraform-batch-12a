@@ -1,9 +1,9 @@
 remote_state {
-    backend = "gcs"
-    config = {
-        bucket = "terraform-batch-12a"
-        prefix = "staging/${path_relative_to_include()}/terraform.tfstate"
-    }
+  backend = "gcs"
+  config = {
+    bucket = "terraform-batch-12a"
+    prefix = "staging/${path_relative_to_include()}/terraform.tfstate"
+  }
 }
 
 inputs = {
